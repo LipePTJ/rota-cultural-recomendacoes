@@ -1,0 +1,128 @@
+.footer-container {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  border-top: 4px solid #f5b819;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 35px 50px 25px 50px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* Avião ajustado mais para cima para dar respiro ao botão */
+.airplane-bg {
+  position: absolute;
+  top: -10px; /* Subiu para afastar do botão */
+  right: 10px;
+  width: 145px;
+  pointer-events: none;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Marca / Logo centralizados entre si */
+.brand-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza a logo e o slogan */
+  text-align: center;
+}
+
+.brand-column .logo {
+  height: 75px;
+  width: auto;
+  object-fit: contain;
+}
+
+.brand-column .tagline {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-align: center; /* Garante alinhamento central do texto */
+}
+
+/* Linha divisória amarela */
+.vertical-divider {
+  width: 2px;
+  height: 95px;
+  background-color: #f5b819;
+  margin: 0 10px;
+}
+
+/* Colunas de Links (Institucional e Suporte) */
+.link-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 8px;
+}
+
+.link-column h4 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+}
+
+.link-column a {
+  color: #555555;
+  font-size: 13px;
+  text-decoration: none;
+  transition: color 0.2s;
+  text-align: left;
+}
+
+.link-column a:hover {
+  color: #f5b819;
+}
+
+/* Botão Fale Conosco e Ícones */
+.action-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.btn-contact {
+  background-color: #f5b819;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.social-row {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  background-color: #0b1a30;
+  color: #ffffff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
